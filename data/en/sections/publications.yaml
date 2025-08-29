@@ -1,82 +1,72 @@
 # section information
 section:
-  name: Publications
+  name: Research
   id: publications
   enable: true
-  weight: 6
+  weight: 2
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
 
-# filter buttons
-buttons:
-- name: All
-  filter: "all"
-- name: "Machine Learning"
-  filter: "machinelearning"
-- name: "Image Processing"
-  filter: "image-processing"
-- name: Security
-  filter: "security"
 
 # your publications
 publications:
-- title: An Example Paper on Machine Learning
+- title: Can Visuo-motor Policies Benefit from Random Exploration Data? A Case Study on Stacking
   publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
-    url: https://example.com
+    name: Arxiv Preprint
+    date: 30 March 2025
+    url: https://arxiv.org/abs/2503.23571
   authors:
-  - name: Dr. Madman
-    url: https://example.com
-  - name: Dr. Lessmad
-    url: https://example.com
-  - name: Dr. Moremad
-    url: https://example.com
-  - name: Dr. Goodman
-    url: https://example.com
+  - name: Shutong Jin
+  - name: Axel Kaliff
+  - name: Ruiyu Wang
+  - name: Muhammad Zahid
+  - name: Florian T Pokorny
   paper:
-    summary: Voluptate in id id voluptate laboris. Minim mollit aliquip sit aliqua ut exercitation voluptate eiusmod consequat pariatur sunt enim veniam. Velit esse tempor laboris anim tempor officia. Magna non labore duis do esse sit do ipsum culpa. Officia consequat id non duis culpa dolor. Excepteur magna non nostrud cupidatat aute aliqua aliquip.
-    url: https://example.com
-  categories: ["machinelearning","image-processing"]
-  tags: ["Machine Learning", "Autonomous Driving", "Computer Vision"]
+    summary: "Human demonstrations have been key to recent advancements in robotic manipulation, but their scalability is hampered by the substantial cost of the required human labor. In this paper, we focus on random exploration data-video sequences and actions produced autonomously via motions to randomly sampled positions in the workspace-as an often overlooked resource for training visuo-motor policies in robotic manipulation. Towards this goal, we present a large-scale experimental study based on over 750 hours of robot data collection, comprising 400 successful and 12,000 failed episodes."
+    url: https://arxiv.org/abs/2503.23571
+  categories: []
+  tags: []
 
-- title: An Sample Paper on Image Processing
+- title: "Simulation In The Loop: Real-Time Robot Action Success Verification with a Digital Twin"
   publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
-    url: https://example.com
+    name: DIVA
+    date: "July 2025"
+    url: https://www.diva-portal.org/smash/record.jsf?pid=diva2:1988006
   authors:
-  - name: Dr. Madman
-    url: https://example.com
-  - name: Dr. Lessmad
-    url: https://example.com
-  - name: Dr. Moremad
-    url: https://example.com
-  - name: Dr. Goodman
-    url: https://example.com
+  - name: Axel Kaliff
   paper:
-    summary: Ullamco magna minim cupidatat Lorem ea ex aliqua fugiat et. Dolor quis cillum ea duis irure et commodo aliquip consectetur ullamco labore ut anim nisi. Commodo reprehenderit est consectetur tempor adipisicing occaecat exercitation amet do aliquip dolor do irure. Labore officia ut magna pariatur reprehenderit et ex sit sunt. Magna proident ullamco adipisicing sit.
-    url: https://example.com
-  categories: ["image-processing"]
-  tags: ["Image Processing", "Computer Vision"]
+    summary: This thesis investigates how robotic task execution can be improved by leveraging a digital twin to perform action success verification, in a paradigm referred to as Simulation-In-The-Loop (SIL) Specifically, this work focuses on using SIL for environment resetting, a process that returns a robot– environment system to a known initial state, which when implemented successfully supports continuous data collection and iterative learning. Using a digital twin constructed by the author of this thesis, SIL enables action validation through simulated perturbations prior to real-world deployment.
+    url: https://www.diva-portal.org/smash/record.jsf?pid=diva2:1988006
+    categories: []
+  tags: []
 
-- title: An Example Paper on Security
+- title: "CloudGripper-AutoGrasper: A Cloud Robotics Toolkit for Automatic Data Collection"
   publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
-    url: https://example.com
+    name: Workshop paper, unpublished. Presented at 2024 IEEE ICRA Conference.
+    date: September 2024
   authors:
-  - name: Dr. Madman
-    url: https://example.com
-  - name: Dr. Lessmad
-    url: https://example.com
-  - name: Dr. Moremad
-    url: https://example.com
-  - name: Dr. Goodman
-    url: https://example.com
+  - name: Axel Kaliff
+  - name: Shutong Jin
+  - name: Muhammad Zahid
+  - name: Ruiyu Wang
+  - name: Florian T Pokorny  
   paper:
-    summary: Dolor ad cupidatat pariatur nulla ipsum ex ullamco nisi anim ullamco. Dolore elit esse in exercitation minim aliqua. Amet velit incididunt magna laboris. Proident reprehenderit deserunt ad officia duis dolor. Tempor nostrud ullamco ullamco sint deserunt cupidatat irure minim consectetur nulla adipisicing sunt.
-    url: https://example.com
-  categories: ["security"]
-  tags: ["Machine Learning", "Autonomous Driving", "Machine Vision"]
+    summary: "In this paper, we present Cloudgripper-Autograsper, a cloud robotics toolkit built on the CloudGripper open-source platform (https://cloudgripper.org), designed to optimize data collection with minimal human intervention. The toolkit features two main components: (1) automatic scene resetting via sequential pick-and-place operations for real-world data collection, and (2) fast transitions between simulated and real-world data through compatible API calls."
+    url: "https://www.openreview.net/forum?id=dXzwSCzCzm"
+    categories: []
+  tags: []
+
+- title: "Assessment Accuracy of a Large Language Model on Programming Assignments"
+  publishedIn:
+    name: DIVA
+    date: July 2023
+    url: https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1779792&dswid=4921
+  authors:
+  - name: Axel Kaliff
+  - name: Douglas Bengtsson
+  paper:
+    summary: "The education sector is changing rapidly and adopting new practices of managing student assignments. Manually assessing student work can be costly, as well as sometimes erroneous, implying it can be beneficial to automate the grading process. With new large language models rises questions on how well these can be used to grade assignments, as well as how their accuracy can be improved. This study has explored how task context affects the accuracy of a large language model when grading programming assignments."
+    url: "https://www.openreview.net/forum?id=dXzwSCzCzm"
+    categories: []
+  tags: []

@@ -1,65 +1,38 @@
-# section information
 section:
-  name: Projects
+  name: Research
   id: projects
-  enable: true
-  weight: 5
+  enable: false
+  weight: 2
   showOnNavbar: true
-  # Can optionally hide the title in sections
-  # hideTitle: true
+  template: sections/projects.html
 
-# filter buttons
-buttons:
-- name: All
-  filter: "all"
-- name: Professional
-  filter: "professional"
-- name: Academic
-  filter: "academic"
-- name: Hobby
-  filter: "hobby"
-
-# your projects
 projects:
-- name: Kubernetes
-  logo: /images/sections/projects/kubernetes.png
-  role: Contributor
-  timeline: "March 2018 - Present"
-  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Production-Grade Container Scheduling and Management.
-  tags: ["professional", "kubernetes", "cloud"]
+- name: "Can Visuo-motor Policies Benefit from Random Exploration Data? A Case Study on Stacking"
+  logo: /images/sections/projects/paper.png # Add icon
+  role: "Co-first Author"
+  timeline: "Under Submission to IEEE RA-L"
+  repo: "https://arxiv.org/abs/2503.23571" # Link to arXiv
+  summary: "Investigates how random exploration data affects visuo-motor policies in a robotic stacking task. *Equal contribution with Shutong Jin."
+  tags: []
+- name: "CloudGripper-AutoGrasper: A Cloud Robotics Toolkit for Automatic Data Collection"
+  logo: /images/sections/projects/paper.png # Add icon
+  role: "Author"
+  timeline: "Accepted to IEEE IROS 2024 Workshop"
+  # repo: "#" # Add link if available
+  summary: "Presents a toolkit for automating robotic manipulation data collection using the CloudGripper cloud robotics platform."
+  tags: []
+- name: "Simulation in the Loop: Real-Time Robot Action Success Verification with a Digital Twin"
+  logo: /images/sections/projects/thesis.png # Add icon
+  role: "Master's Thesis"
+  timeline: "Completed April 2025"
+  repo: "https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1988006&dswid=-9313" # Add link to thesis PDF when available
+  summary: "Real-Time Action Success Verification using a Digital Twin. Conducted at the Royal Institute of Technology (KTH)."
+  tags: []
 
-- name: Tensorflow
-  logo: /images/sections/projects/tensorflow.png
-  role: Developer
-  timeline: "Jun 2018 - Present"
-  repo: https://github.com/tensorflow/tensorflow
-  #url: ""
-  summary: An Open Source Machine Learning Framework for Everyone.
-  tags: ["professional", "machine-learning"]
-
-- name: A sample academic paper
-  role: Team Lead
-  timeline: "Jan 2017 - Nov 2017"
-  url: "https://www.example.com"
-  summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
-  tags: ["academic","iot"]
-
-- name: Nocode
-  logo: /images/sections/projects/no-code.png
-  role: Nothing
-  timeline: "Oct 2019 - Dec 2019"
-  repo: https://github.com/kelseyhightower/nocode
-  #url: ""
-  summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
-  tags: ["hobby", "fun"]
-
-- name: Toha
-  logo: /images/sections/projects/toha.png
-  image: /images/sections/projects/toha_website.png
-  role: Owner
-  timeline: "Jun 2019 - Present"
-  repo: https://github.com/hossainemruz/toha
-  summary: A Hugo theme for personal portfolio.
-  tags: ["hobby","hugo","theme","professional"]
+- name: "Simulation in the Loop: Real-Time Robot Action Success Verification with a Digital Twin"
+  logo: /images/sections/projects/thesis.png # Add icon
+  role: "Master's Thesis"
+  timeline: "Completed April 2025"
+  repo: "https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1988006&dswid=-9313" # Add link to thesis PDF when available
+  summary: "Real-Time Action Success Verification using a Digital Twin. Conducted at the Royal Institute of Technology (KTH)."
+  tags: []
