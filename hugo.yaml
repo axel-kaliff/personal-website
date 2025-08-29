@@ -263,10 +263,6 @@ params:
     # Enable reading time support in post cards and in post pages
     readingTime:
       enable: false
-    
-    # Number of posts to show to each page. Default is "12"
-    pagination:
-       maxPostsPerPage: 12
 
 
   # Provide footer configuration.
